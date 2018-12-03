@@ -1,0 +1,42 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<a routerLink="/">String interpolation</a>
+<div>
+    Doing everything in a single component.<br/>
+    String interpolation. Disabling field.
+</div>
+<a routerLink="/input_output">Input Output</a>
+<div>
+    Here I want to send data from parent input field to a list in the child.<br/>
+    Then I want to send from a child which element to delete in the parent array.
+</div>
+<a routerLink="/service">Service</a>
+<div>
+    Communication between two separate components through a service.<br/>
+    One is manipulating the value and the other is showing it.<br/>
+    First counter is using Service property and second EventEmitter
+</div>
+<hr />
+<!--
+<h3>
+    Doing everything in a single component.<br/>
+    String interpolation. Disabling field.
+</h3>
+<app-input-field></app-input-field>
+<hr />
+<h3>
+    Here I want to send data from parent input field to a list in the child.<br/>
+    Then I want to send from a child which element to delete in the parent array.
+</h3>
+<app-parent-component></app-parent-component>
+<hr />
+<h3>
+    Communication between two separate components through a service.<br/>
+    One is manipulating the value and the other is showing it.<br/>
+    First counter is using Service property and second EventEmitter
+</h3>
+<app-first-component></app-first-component>
+<app-second-component></app-second-component>
+-->
+<router-outlet></router-outlet>
+<router-outlet name="secondary"></router-outlet>
